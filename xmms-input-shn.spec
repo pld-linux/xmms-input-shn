@@ -1,5 +1,5 @@
-Summary:	SHN plugin for xmms
-Summary(pl):	Wtyczka odtwarzaj±ca pliki SHN dla xmms
+Summary:	SHN plugin for XMMS
+Summary(pl):	Wtyczka dla XMMS-a odtwarzaj±ca pliki SHN
 Name:		xmms-input-shn
 Version:	2.2.7
 Release:	0.1
@@ -7,25 +7,23 @@ License:	SHORTEN SOFTWARE LICENSE
 Group:		X11/Applications/Sound
 Source0:	http://www.etree.org/shnutils/xmms-shn/source/xmms-shn-%{version}.tar.gz
 URL:		http://www.etree.org/shnutils/xmms-shn/
+BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	glib-devel
 BuildRequires:	gtk+-devel
-BuildRequires:	XFree86-devel
+BuildRequires:	libtool
 BuildRequires:	xmms-devel
 Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_xmms_plugin_dir	%(xmms-config --input-plugin-dir)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
-
 %description
-This plugin allows xmms to play SHN files.
+This plugin allows XMMS to play SHN files.
 
 %description -l pl
-Ta wtyczka pozwala xmms-owi odtwarzaæ muzykê w formacie SHN.
+Ta wtyczka pozwala XMMS-owi odtwarzaæ muzykê w formacie SHN.
 
 %prep
 %setup -q -n xmms-shn-%{version}
