@@ -1,5 +1,5 @@
 Summary:	SHN plugin for XMMS
-Summary(pl):	Wtyczka dla XMMS-a odtwarzaj±ca pliki SHN
+Summary(pl):	Wtyczka wej¶ciowa dla XMMS-a odtwarzaj±ca pliki SHN
 Name:		xmms-input-shn
 Version:	2.4.0
 Release:	0.1
