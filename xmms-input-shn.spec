@@ -1,8 +1,8 @@
 Summary:	SHN plugin for XMMS
 Summary(pl):	Wtyczka dla XMMS-a odtwarzaj±ca pliki SHN
 Name:		xmms-input-shn
-Version:	2.2.7
-Release:	0.2
+Version:	2.2.8
+Release:	0.1
 License:	SHORTEN SOFTWARE LICENSE
 Group:		X11/Applications/Sound
 Source0:	http://www.etree.org/shnutils/xmms-shn/source/xmms-shn-%{version}.tar.gz
