@@ -6,7 +6,7 @@ Release:	0.1
 License:	SHORTEN SOFTWARE LICENSE
 Group:		X11/Applications/Sound
 Source0:	http://www.etree.org/shnutils/xmms-shn/source/xmms-shn-%{version}.tar.gz
-# Source0-md5:	dc2d8c672eec5f686cbcba3c3f5ef4ad
+# Source0-md5:	9f74c510fe2a21c22d30443af82b31ab
 URL:		http://www.etree.org/shnutils/xmms-shn/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
